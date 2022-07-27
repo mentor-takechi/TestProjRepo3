@@ -13,10 +13,14 @@
 		830A2921289029D50081AE25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830A291F289029D50081AE25 /* Main.storyboard */; };
 		830A2923289029DD0081AE25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 830A2922289029DD0081AE25 /* Assets.xcassets */; };
 		830A2926289029DD0081AE25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 830A2924289029DD0081AE25 /* LaunchScreen.storyboard */; };
+		830A293028902A580081AE25 /* download.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 830A292D28902A570081AE25 /* download.jpg */; };
+		830A293128902A580081AE25 /* download-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 830A292E28902A570081AE25 /* download-2.jpg */; };
+		830A293228902A580081AE25 /* download-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 830A292F28902A570081AE25 /* download-1.jpg */; };
+		8384C7B22890F75B004902DE /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8384C7B12890F75B004902DE /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		830A2916289029D50081AE25 /* slideShowPractice6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slideShowPractice6.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		830A2916289029D50081AE25 /* SlideShowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideShowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		830A2919289029D50081AE25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		830A291B289029D50081AE25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		830A291D289029D50081AE25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +28,10 @@
 		830A2922289029DD0081AE25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		830A2925289029DD0081AE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		830A2927289029DD0081AE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830A292D28902A570081AE25 /* download.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpg; sourceTree = "<group>"; };
+		830A292E28902A570081AE25 /* download-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download-2.jpg"; sourceTree = "<group>"; };
+		830A292F28902A570081AE25 /* download-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download-1.jpg"; sourceTree = "<group>"; };
+		8384C7B12890F75B004902DE /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +56,7 @@
 		830A2917289029D50081AE25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				830A2916289029D50081AE25 /* slideShowPractice6.app */,
+				830A2916289029D50081AE25 /* SlideShowApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,10 +67,14 @@
 				830A2919289029D50081AE25 /* AppDelegate.swift */,
 				830A291B289029D50081AE25 /* SceneDelegate.swift */,
 				830A291D289029D50081AE25 /* ViewController.swift */,
+				8384C7B12890F75B004902DE /* ViewController2.swift */,
 				830A291F289029D50081AE25 /* Main.storyboard */,
 				830A2922289029DD0081AE25 /* Assets.xcassets */,
 				830A2924289029DD0081AE25 /* LaunchScreen.storyboard */,
 				830A2927289029DD0081AE25 /* Info.plist */,
+				830A292F28902A570081AE25 /* download-1.jpg */,
+				830A292E28902A570081AE25 /* download-2.jpg */,
+				830A292D28902A570081AE25 /* download.jpg */,
 			);
 			path = slideShowPractice6;
 			sourceTree = "<group>";
@@ -70,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		830A2915289029D50081AE25 /* slideShowPractice6 */ = {
+		830A2915289029D50081AE25 /* SlideShowApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 830A292A289029DD0081AE25 /* Build configuration list for PBXNativeTarget "slideShowPractice6" */;
+			buildConfigurationList = 830A292A289029DD0081AE25 /* Build configuration list for PBXNativeTarget "SlideShowApp" */;
 			buildPhases = (
 				830A2912289029D50081AE25 /* Sources */,
 				830A2913289029D50081AE25 /* Frameworks */,
@@ -82,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = slideShowPractice6;
+			name = SlideShowApp;
 			productName = slideShowPractice6;
-			productReference = 830A2916289029D50081AE25 /* slideShowPractice6.app */;
+			productReference = 830A2916289029D50081AE25 /* SlideShowApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 830A2911289029D50081AE25 /* Build configuration list for PBXProject "slideShowPractice6" */;
+			buildConfigurationList = 830A2911289029D50081AE25 /* Build configuration list for PBXProject "SlideShowApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				830A2915289029D50081AE25 /* slideShowPractice6 */,
+				830A2915289029D50081AE25 /* SlideShowApp */,
 			);
 		};
 /* End PBXProject section */
@@ -126,8 +138,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				830A2926289029DD0081AE25 /* LaunchScreen.storyboard in Resources */,
+				830A293228902A580081AE25 /* download-1.jpg in Resources */,
 				830A2923289029DD0081AE25 /* Assets.xcassets in Resources */,
 				830A2921289029D50081AE25 /* Main.storyboard in Resources */,
+				830A293028902A580081AE25 /* download.jpg in Resources */,
+				830A293128902A580081AE25 /* download-2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				830A291E289029D50081AE25 /* ViewController.swift in Sources */,
+				8384C7B22890F75B004902DE /* ViewController2.swift in Sources */,
 				830A291A289029D50081AE25 /* AppDelegate.swift in Sources */,
 				830A291C289029D50081AE25 /* SceneDelegate.swift in Sources */,
 			);
@@ -295,6 +311,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +340,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		830A2911289029D50081AE25 /* Build configuration list for PBXProject "slideShowPractice6" */ = {
+		830A2911289029D50081AE25 /* Build configuration list for PBXProject "SlideShowApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				830A2928289029DD0081AE25 /* Debug */,
@@ -348,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		830A292A289029DD0081AE25 /* Build configuration list for PBXNativeTarget "slideShowPractice6" */ = {
+		830A292A289029DD0081AE25 /* Build configuration list for PBXNativeTarget "SlideShowApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				830A292B289029DD0081AE25 /* Debug */,
