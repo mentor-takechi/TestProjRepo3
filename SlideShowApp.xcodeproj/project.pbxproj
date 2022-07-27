@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		830A2916289029D50081AE25 /* SlideShowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideShowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		830A2916289029D50081AE25 /* SlideshowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideshowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		830A2919289029D50081AE25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		830A291B289029D50081AE25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		830A291D289029D50081AE25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		830A2917289029D50081AE25 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				830A2916289029D50081AE25 /* SlideShowApp.app */,
+				830A2916289029D50081AE25 /* SlideshowApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		830A2915289029D50081AE25 /* SlideShowApp */ = {
+		830A2915289029D50081AE25 /* SlideshowApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 830A292A289029DD0081AE25 /* Build configuration list for PBXNativeTarget "SlideShowApp" */;
+			buildConfigurationList = 830A292A289029DD0081AE25 /* Build configuration list for PBXNativeTarget "SlideshowApp" */;
 			buildPhases = (
 				830A2912289029D50081AE25 /* Sources */,
 				830A2913289029D50081AE25 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = SlideShowApp;
+			name = SlideshowApp;
 			productName = slideShowPractice6;
-			productReference = 830A2916289029D50081AE25 /* SlideShowApp.app */;
+			productReference = 830A2916289029D50081AE25 /* SlideshowApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 830A2911289029D50081AE25 /* Build configuration list for PBXProject "SlideShowApp" */;
+			buildConfigurationList = 830A2911289029D50081AE25 /* Build configuration list for PBXProject "SlideshowApp" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				830A2915289029D50081AE25 /* SlideShowApp */,
+				830A2915289029D50081AE25 /* SlideshowApp */,
 			);
 		};
 /* End PBXProject section */
@@ -357,7 +357,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		830A2911289029D50081AE25 /* Build configuration list for PBXProject "SlideShowApp" */ = {
+		830A2911289029D50081AE25 /* Build configuration list for PBXProject "SlideshowApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				830A2928289029DD0081AE25 /* Debug */,
@@ -366,7 +366,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		830A292A289029DD0081AE25 /* Build configuration list for PBXNativeTarget "SlideShowApp" */ = {
+		830A292A289029DD0081AE25 /* Build configuration list for PBXNativeTarget "SlideshowApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				830A292B289029DD0081AE25 /* Debug */,
